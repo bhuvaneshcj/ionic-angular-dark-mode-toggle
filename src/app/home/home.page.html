@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-list>
+      <ion-item lines="none">
+        <ion-icon slot="start" name="moon-sharp" color="dark"></ion-icon>
+        <ion-label>Dark Mode</ion-label>
+        <ion-toggle slot="end" mode="ios" [checked]="darkModeActivated"
+          (ionChange)="toggleDarkMode($event)"></ion-toggle>
+      </ion-item>
+    </ion-list>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-list>
+    <ion-item lines="full" detail="true" *ngFor="let list of colorList">
+      <ion-icon name="folder" slot="start" [color]="list"></ion-icon>
+      <ion-label>{{list|titlecase}}</ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>

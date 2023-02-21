@@ -1,0 +1,7 @@
+{
+  "name": "ionicAngularDarkModeToggle",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
