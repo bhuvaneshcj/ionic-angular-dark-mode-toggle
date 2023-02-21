@@ -9,3 +9,7 @@ I'll demonstrate how to manually switch between light and dark mode in your ioni
 - Clone this repository `git clone https://github.com/bhuvaneshcj/IonicAngularDarkModeToggle.git`.
 - Run `npm install` from the project root.
 - Run `ionic serve` in a terminal from the project root.
+
+## Screenshot
+
+![DarkModeToggle](src/assets/screenshots/darkModeToggle.jpg)
